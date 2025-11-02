@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 </html>
+<!-- =================== HEADER SECTION =================== -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,9 @@
         <p>Order your delicious pizza here!</p>
     </header>
     <main>
+        <!-- Contact Information -->
         <form action="#" method="post">
+            
             <fieldset>
                 <legend>Customer Details</legend>
                 <label for="name">Name:</label>
@@ -24,6 +27,7 @@
             <label for="address">Address:</label>
                 <textarea id="address" name="address" rows="3" cols="30"></textarea><br><br>
             </fieldset>
+            <!-- Pizza Details -->
             <fieldset>
                 <legend>Pizza Order </legend>
                 <label for="numPizzas">Number of Pizzas:</label>
@@ -72,7 +76,7 @@
                 <legend>Additional Instructions</legend>
                 <label for="instructions">Special Instructions:</label><br>
                 <textarea id="instructions" name="instructions" rows="4" cols="50"></textarea><br><br>  
-            
+            <!-- Delivery Type -->
             </fieldset>
             <legend> Order type</legend>
             <label pickup or delivery: label><br>
@@ -83,6 +87,7 @@
             <input type ="dine_in" id="dine_in" name="orderType" value="">
             <label for="dine_in">Dine In</label><br><br>
             </fieldset>
+            <!-- Submit and Reset -->
             <input type="submit" value="Place Order">
             <input type="reset" value="Reset Form">
         </form>
