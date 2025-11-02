@@ -25,7 +25,28 @@
                 <textarea id="address" name="address" rows="3" cols="30"></textarea><br><br>
             </fieldset>
             <fieldset>
-                
+                <legend>Pizza Order </legend>
+                <label for="numPizzas">Number of Pizzas:</label>
+                <input type="number" id="numPizzas" name="numPizzas" min="1" max="10" required><br><br>
+                <label for="size">Size:</label>
+                <select id="size" name="size" required>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select><br><br>
+                <label>Shape:</label>
+                <input type="radio" id="round" name="shape" value="round" required>
+                <label for="round">Round</label><br>
+                <input type="radio" id="square" name="shape" value="square">
+                <label for="square">Square</label><br><br>
+                <label>Crust type:</label><br>
+                <input type="radio" id="thin" name="crust" value="thin" required>
+                <label for="thin">Thin Crust</label><br>
+                <input type="radio" id="thick" name="crust" value="thick">
+                <label for="thick">Thick Crust</label><br>
+                <input type="radio" id="stuffed" name="crust" value="stuffed">
+                <label for="stuffed">Stuffed Crust</label><br><br>
+                <label>Toppings:</label><br>
                 
                 
         </form>
