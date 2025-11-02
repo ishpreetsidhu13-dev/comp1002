@@ -7,7 +7,7 @@
 		<meta name="description" content="A concise and accurate summary of the document content is to appear here">
 		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
 		<!-- STEP 1: Build a LINK element to attach the EXTERNAL style sheet located in the 'css' folder - the CSS file is called, 'styles.css' - don't forget to add the rel attribute equal to 'stylesheet' - proceed to styles.css for STEP 2 -->
-
+    <link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body id="section1">
 		<!-- Page-level header -->
