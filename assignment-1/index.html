@@ -72,7 +72,18 @@
                 <legend>Additional Instructions</legend>
                 <label for="instructions">Special Instructions:</label><br>
                 <textarea id="instructions" name="instructions" rows="4" cols="50"></textarea><br><br>  
+            <textarea id="Special_instruction" name="Special_instruction" rows="4" cols="50"></textarea><br><br>
+            </fieldset>
+            <legend> Order type</legend>
+            <label pickup or delivery: label><br>
+            <input type="radio" id="pickup" name="orderType" value="pickup" required>
+            <label for="pickup">Pickup</label><br>
+            <input type="radio" id="delivery" name="orderType" value="delivery">
+            <label for="delivery">Delivery</label><br><br>
+            <input type ="dine_in" id="dine_in" name="orderType" value="dine_in">
+            <label for="dine_in">Dine In</label><br><br>
             </fieldset>
             <input type="submit" value="Place Order">
+            <input type="reset" value="Reset Form">
         </form>
 </body>
