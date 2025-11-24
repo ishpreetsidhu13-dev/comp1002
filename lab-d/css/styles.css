@@ -18,7 +18,7 @@ header {
 }
 /* STEP 1: Float the HEADER IMG to the left */
 header img {
-	float: left;
+
 }
 
 header a {
@@ -27,28 +27,26 @@ header a {
 /* STEP 2: Set the text-align for both the HEADER H1 and the HEADER H2 to right */
 header h1,
 header h2 {
-	text-align: right;
+
 }
 /* STEP 3a: Reduce the margin-bottom of the HEADER H1 to zero, so that the following H2 sit up a bit closer to the H1 */
 header h1 {
-	margin-bottom: 0;
+
 }
 /* STEP 3b: The HEADER H2 has a margin-top by default, set that also to zero to bring it up a bit closer to the H1 */
 header h2 {
-	margin-top: 0;
+
 	text-transform: uppercase;
 }
 
 /* STEP 4d: There's a bit of padding-left on the UL element that contains the LI elements - set it to zero */
 header nav ul {
-	padding-left: 0;
+
 }
 
 /* STEP 4a: Apply a 1px dashed red outline around each of the LI elements inside the HEADER NAV so that we can see that each LI is a box (border-width, border-style, and border-color) */
 header nav li {
-	/* border: 1px dashed red; */
-	display: inline-block;
-	margin-right: 0.5em;
+
 }
 /* STEP 4b: Set the above LI elements (which default to display: block as we can see in the browser), to display: inline-block so that they line up horizontally across the top of the page */
 
@@ -68,8 +66,7 @@ main {
 
 /* STEP 5a: Put a 1px dotted hotpink border around MAIN SECTION in the CSS rule below so we can see the box on the screen */
 main section {
-	/* border: 1px dotted hotpink; */
-	padding: 1em;
+
 	width: 60%;
 
 }
@@ -81,10 +78,7 @@ main section time {
 
 /* STEP 5c: After adding a colored border to the below MAIN ASIDE, go ahead and also add padding to the top, right, and bottom (not the left) */
 main aside {
-	/* border: 1px dotted hotpink; */
-	padding-top: 1em;
-	padding-right: 1em;
-	padding-bottom: 1em;
+
 	width: 40%;
 
 }
@@ -92,10 +86,6 @@ main aside {
 
 /* STEP 7a: This is a challenge! Build a selector that targets the images of the colored building blocks ONLY - you will need to use a selector that targets IMG elements inside ASIDE elements that have an 'alt' attribute where the value ends with the word, "block" (you may need to look back at the learning module that covered selectors) */
 
-main aside img[alt$="block"] {
-	position: relative;
-	left: -3rem;
-}
 
 /* STEP 7b: Position block images a bit more to the left using 'position: relative' - then create a second declartion with the 'left' property equal to -3rem in the above rule you just completed - check how your pages look in the browser, and you are all finished with the lab! */
 
@@ -135,7 +125,7 @@ blockquote::first-letter {
 
 /* STEP 6: The FOOTER is a bit too close to the MAIN - add a margin-top to the FOOTER of 2rem */
 footer {
-	margin-top: 2rem;
+
 	font-size: 1.6rem;
 }
 
