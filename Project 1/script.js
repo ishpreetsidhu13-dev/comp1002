@@ -203,8 +203,7 @@ function submitReview(reviewData) {
     const stars = document.querySelectorAll('.star-rating .star');
     stars.forEach(star => star.classList.remove('active'));
     
-    // In a real application, you might add the review to the page dynamically
-    // addReviewToPage(reviewData);
+    
 }
 
 function showSuccessMessage(message) {
